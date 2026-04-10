@@ -60,7 +60,7 @@ def main():
     if not events:
         return
 
-    for event in events[:10]:  # mostra só os 10 mais recentes
+    for event in events[:10]:
         formatted = format_event(event)
         if formatted:
             print(f"- {formatted}")
